@@ -1,0 +1,7 @@
+<section id="gameplay-video">
+  <h2>Gameplay Video</h2>
+  <video width="560" controls>
+    <source src="videos/gameplay.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+</section>
