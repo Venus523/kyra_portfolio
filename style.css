@@ -15,5 +15,13 @@ header {
 main {
     padding: 2rem;
 }
+#gameplay-video {
+  text-align: center;
+  margin: 20px 0;
+}
+#gameplay-video video, #gameplay-video iframe {
+  max-width: 100%;
+  height: auto;
+}
 
 }
