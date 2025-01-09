@@ -29,6 +29,30 @@ main {
   max-width: 100%;
   height: auto;
 }
+/* Section for character photos */
+#character-photos {
+  text-align: center;
+  margin: 40px 0;
+}
+
+#character-photos .character {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+#character-photos img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#character-photos p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
+}
 
 /* Footer styling */
 footer {
