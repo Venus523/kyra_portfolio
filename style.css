@@ -128,3 +128,18 @@ p, li {
   font-size: 14px;
   color: #333; 
 }
+/* About the Game Photo Styling */
+#Game-photo {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#Game-photo img {
+  width: 100%; /* Makes the image responsive */
+  max-width: 600px; /* Limits the image size */
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Centers the image */
+  margin: 0 auto; /* Centers the image horizontally */
+  border-radius: 10px; /* Optional: Adds rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow effect */
+}
