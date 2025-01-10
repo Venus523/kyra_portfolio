@@ -2,11 +2,7 @@ body {
   font-family: Abril, Fatface;
   margin: 0;
   padding: 0;
-  background-color: #eeabff;
-    background-image: url('wall.JPG');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  background-color: #fff;
 
 }
 
