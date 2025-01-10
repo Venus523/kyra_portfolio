@@ -139,3 +139,25 @@ p, li {
   border-radius: 10px; /* Optional: Adds rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow effect */
 }
+#audio-player {
+  text-align: center;
+  margin: 40px 0;
+}
+
+#audio-player h2 {
+  font-family: 'Abril Fatface', cursive, Arial, sans-serif;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+#audio-player iframe {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#audio-player div a {
+  color: #555;
+  text-decoration: underline;
+  font-size: 12px;
+}
