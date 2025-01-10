@@ -3,6 +3,11 @@ body {
   margin: 0;
   padding: 0;
   background-color: #eeabff;
+    background-image: url('Back.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 /* Header styling */
