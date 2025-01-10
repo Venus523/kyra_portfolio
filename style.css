@@ -5,14 +5,10 @@
 
 }
 
-/* Header styling */
-header {
-  background: #333;
-  color: #fff;
-  padding: 1rem 0;
-  text-align: center;
-  font-weight: normal;
-}
+<header style="background: red; color: white; padding: 10px; text-align: center;">
+  <h1>Detroit: Become Human</h1>
+</header>
+
 
 /* Main content styling */
 main {
