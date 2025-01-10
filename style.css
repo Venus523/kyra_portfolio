@@ -1,9 +1,8 @@
 body {
-  font-family: Abril, Fatface;
+  font-family: Abril Fatface, sans-serif;
   margin: 0;
   padding: 0;
   background-color: #fff;
-
 }
 
 /* Header styling */
@@ -19,10 +18,45 @@ header {
 main {
   padding: 2rem;
 }
+
+/* Section for character photos */
+#character-photos {
+  text-align: center;
+  margin: 40px 0;
+}
+
+#character-photos .character {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+}
+
+#character-photos img {
+  width: 150px; /* Uniform width */
+  height: 150px; /* Uniform height */
+  object-fit: cover; /* Ensures images are cropped proportionally */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 #character-photos p {
   margin-top: 10px;
   font-size: 14px;
   color: #333;
+}
+
+/* Section for gameplay video */
+#gameplay-video {
+  text-align: center;
+  margin: 40px 0;
+}
+
+#gameplay-video iframe {
+  width: 560px; /* Fixed width */
+  height: 315px; /* Fixed height */
+  max-width: 100%; /* Responsive scaling */
+  margin: 0 auto; /* Center the video */
+  display: block; /* Ensures proper alignment */
 }
 
 /* Section for additional photos */
@@ -38,8 +72,9 @@ main {
 }
 
 #additional-photos img {
-  max-width: 150px;
-  height: auto;
+  width: 150px; /* Uniform width */
+  height: 150px; /* Uniform height */
+  object-fit: cover; /* Ensures uniform size */
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -49,14 +84,6 @@ audio {
   display: block;
   margin: 20px auto;
   max-width: 100%;
-}
-
-/* Styling for sections with images and text */
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto 15px;
 }
 
 /* Enhance overall typography for better readability */
@@ -88,43 +115,10 @@ p, li {
     margin: 20px auto;
   }
 
-  img {
-    max-width: 90%;
-  }
-
-  iframe {
-    width: 90%;
-  }
-
+  #gameplay-video iframe,
+  img,
   audio {
-    width: 90%;
+    width: 90%; /* Adjust elements to fit smaller screens */
+    height: auto;
   }
 }
-/* Section for gameplay video */
-#gameplay-video {
-  text-align: center;
-  margin: 20px 0;
-}
-/* Section for character photos */
-#character-photos {
-  text-align: center;
-  margin: 40px 0;
-}
-
-#character-photos .character {
-  display: inline-block;
-  margin: 20px;
-  text-align: center;
-}
-
-#character-photos img {
-  max-width: 150px;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-#character-photos p {
-  margin-top: 10px;
-  font-size: 14px;
-  color: #333;
