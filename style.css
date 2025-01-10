@@ -1,69 +1,81 @@
-body {
-  font-family: Abril, Fatface;
-  margin: 0;
-  padding: 0;
-  background-color: #fff;
-
+#character-photos p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #333;
 }
 
-/* Header styling */
-header {
-  background: #333;
-  color: #fff;
-  padding: 1rem 0;
-  text-align: center;
-  font-weight: normal;
-}
-
-/* Main content styling */
-main {
-  padding: 2rem;
-}
-
-/* Section for gameplay video */
-#gameplay-video {
-  text-align: center;
-  margin: 20px 0;
-}
-
-/* Make video responsive */
-#gameplay-video iframe {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Footer styling */
-footer {
-  text-align: center;
-  padding: 1rem 0;
-  background: #333;
-  color: #fff;
-}
-
-p {
-  margin-bottom: 15px;
-}
-/* Section for character photos */
-#character-photos {
+/* Section for additional photos */
+#additional-photos {
   text-align: center;
   margin: 40px 0;
 }
 
-#character-photos .character {
+#additional-photos .photo {
   display: inline-block;
   margin: 20px;
   text-align: center;
 }
 
-#character-photos img {
+#additional-photos img {
   max-width: 150px;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-#character-photos p {
-  margin-top: 10px;
-  font-size: 14px;
-  color: #333;
+/* Audio section styling */
+audio {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+}
+
+/* Styling for sections with images and text */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 15px;
+}
+
+/* Enhance overall typography for better readability */
+h2 {
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+  text-align: center;
+  margin: 20px 0;
+}
+
+h3 {
+  font-family: 'Abril Fatface', cursive;
+  color: #444;
+  text-align: center;
+  margin: 10px 0;
+}
+
+p, li {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 768px) {
+  #character-photos .character, #additional-photos .photo {
+    display: block;
+    margin: 20px auto;
+  }
+
+  img {
+    max-width: 90%;
+  }
+
+  iframe {
+    width: 90%;
+  }
+
+  audio {
+    width: 90%;
+  }
 }
