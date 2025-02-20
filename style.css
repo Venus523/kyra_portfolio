@@ -1,141 +1,14 @@
- font-family: Abril, Fatface;
+{
+font-family: Abril, Fatface;
   margin: 0;
   padding: 0;
   background-color: #fff;
 
+body {
+    background-image: url('https://raw.githubusercontent.com/your-username/your-repo/main/assets/background.jpg');
+    background-size: cover; /* Ensures the image covers the whole page */
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-<header style="background: red; color: white; padding: 10px; text-align: center;">
-  <h1>Detroit: Become Human</h1>
-</header>
-
-
-/* Main content styling */
-main {
-  padding: 2rem;
-}
-#character-photos p {
-  margin-top: 10px;
-  font-size: 14px;
-  color: #333;
-}
-
-/* Section for additional photos */
-#additional-photos {
-  text-align: center;
-  margin: 40px 0;
-}
-
-#additional-photos .photo {
-  display: inline-block;
-  margin: 20px;
-  text-align: center;
-}
-
-#additional-photos img {
-  max-width: 150px;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* Audio section styling */
-audio {
-  display: block;
-  margin: 20px auto;
-  max-width: 100%;
-}
-
-/* Styling for sections with images and text */
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto 15px;
-}
-
-/* Enhance overall typography for better readability */
-h2 {
-  font-family: 'Abril Fatface', cursive;
-  color: #222;
-  text-align: center;
-  margin: 20px 0;
-}
-
-h3 {
-  font-family: 'Abril Fatface', cursive;
-  color: #444;
-  text-align: center;
-  margin: 10px 0;
-}
-
-p, li {
-  font-family: Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #555;
-}
-
-/* Responsive design adjustments */
-@media (max-width: 768px) {
-  #character-photos .character, #additional-photos .photo {
-    display: block;
-    margin: 20px auto;
-  }
-
-  img {
-    max-width: 90%;
-  }
-
-  iframe {
-    width: 90%;
-  }
-
-  audio {
-    width: 90%;
-  }
-}
-/* Section for gameplay video */
-#gameplay-video {
-  text-align: center;
-  margin: 20px 0;
-}
-/* Section for character photos */
-#character-photos {
-  text-align: center;
-  margin: 40px 0;
-}
-
-#character-photos .character {
-  display: inline-block;
-  margin: 20px;
-  text-align: center;
-}
-
-#character-photos img {
-  max-width: 200px;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-#character-photos p {
-  margin-top: 10px;
-  font-size: 14px;
-  color: #333; 
-}
-/* About the Game Photo Styling */
-#Game-photo {
-  text-align: center;
-  margin: 20px 0;
-}
-
-#Game-photo img {
-  width: 100%; /* Makes the image responsive */
-  max-width: 600px; /* Limits the image size */
-  height: auto; /* Maintains aspect ratio */
-  display: block; /* Centers the image */
-  margin: 0 auto; /* Centers the image horizontally */
-  border-radius: 10px; /* Optional: Adds rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow effect */
 }
