@@ -1,14 +1,87 @@
-{
-font-family: Abril, Fatface;
-  margin: 0;
-  padding: 0;
-  background-color: #fff;
-
+/* Apply background image from GitHub */
 body {
-    background-image: url('https://github.com/Venus523/become-human-website/blob/main/Background1.JPG?raw=true');
-    background-size: cover; /* Ensures the image covers the whole page */
+    background-image: url('https://github.com/Venus523/become-human-website/blob/main/Background1.JPG?raw=true'); /* Replace with your actual image URL */
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
+/* Header Styling */
+header {
+    background: rgba(0, 0, 0, 0.6); /* Adds a dark overlay for better readability */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+/* Button Styling */
+button {
+    background-color: #ffcc00;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #e6b800;
+}
+
+/* Profile Section */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.Profile {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 500px;
+}
+
+/* Profile Image */
+.Profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    margin-bottom: 10px;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    header, .Profile {
+        width: 90%;
+    }
+
+    button {
+        width: 80%;
+    }
 }
