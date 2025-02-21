@@ -1,11 +1,10 @@
-/* Apply background image from GitHub */
 body {
     background-image: url('https://github.com/Venus523/become-human-website/blob/main/Background1.JPG?raw=true'); /* Replace with your actual image URL */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     font-family: Arial, sans-serif;
-    color: white;
+    color: black;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -13,7 +12,7 @@ body {
 
 /* Header Styling */
 header {
-    background: rgba(0, 0, 0, 0.6); /* Adds a dark overlay for better readability */
+    background: rgba(0, 0, 0, 0.7); 
     padding: 20px;
     border-radius: 10px;
     margin: 20px auto;
