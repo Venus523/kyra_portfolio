@@ -40,8 +40,8 @@ header p {
 
 /* Profile Image - Circular & Next to Text */
 .profile-photo img {
-    width: 100px;
-    height: 100px;
+    width: 55px;
+    height: 55px;
     border-radius:50%; 
     object-fit: cover;
     transition: transform 0.4s 
