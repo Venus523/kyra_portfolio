@@ -123,3 +123,29 @@ footer {
     background: rgba(255, 255, 255, 0.8);
     color: black;
 }
+.blog-section, .contact-section {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  margin: 2rem 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+.blog-post h3 a {
+  color: #5c7cfa;
+  text-decoration: none;
+}
+
+.blog-post h3 a:hover {
+  text-decoration: underline;
+}
+
+.contact-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-section li {
+  margin: 0.5rem 0;
+}
+
